@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Produce List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+</head>
+<body>
+    <div class="container">
+       <div class="produce-form">
+           <h1>Make a list of produce!</h1>
+            <div class="input-container">
+            <p>Name:
+            <input id="user-input" type="text"/>
+            </p>
+            </div>
+
+            <div class="checkbox-container">
+            <p>Type:
+            <!-- radio buttons need to have the same name in order to know the other exists -->
+            <input id="fruitButton" type="radio" name="button">
+            <label class="fruit">Fruit</label>
+            <input id="vegButton" type="radio" name="button">
+            <label for="vegetable">Vegetable</label>
+            </p>
+
+            <div class="add-button">
+            <button onclick="add()">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="lists">
+        <div class="fruit-list">
+            <h3>Fruits</h3>
+            <ol id="fruitList" class="fruits"></ol>
+        </div>
+        <div class="veggie-list">
+            <h3>Vegetables</h3>
+            <ol id="vegList" class="vegetables"></ol>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>   
+</body>
+</html>

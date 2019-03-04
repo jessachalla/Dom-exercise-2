@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(94, 154, 11);
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.produce-form {
+    border: 5px solid white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    background-color: rgb(219, 182, 255);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.fruit-list{
+    padding: 20px;
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+}
+
+.veggie-list{
+    padding: 20px;
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+}
+
+.lists{
+    display:flex;
+}
